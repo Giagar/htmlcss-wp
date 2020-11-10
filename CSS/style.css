@@ -93,6 +93,54 @@ nav li a {
 
 nav li a:hover {
   background: lightgrey;
+  color: black;
+}
+/* ----/nav */
+
+/* ----content */
+.content-container {
+  padding-top: 10px;
 }
 
-/* ----/nav */
+.feeds, main, .widgets-container {
+  float: left;
+}
+
+.content-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.feeds, .main-content, .widgets-container {
+  background: white;
+  border-radius: 4px;
+}
+/* ----/content */
+
+/* ----section feeds */
+.feeds {
+  width: 20%;
+}
+/* ----/section feeds */
+
+/* ----main */
+main {
+  width: 60%;
+  padding: 0 40px;
+}
+/* ----/main */
+
+/* ----widgets-container */
+.widgets-container {
+  width: 20%;
+}
+/* ----/widgets-container */
+
+/* ----footer */
+footer {
+  height: 100px;
+  background: orange;
+  margin-top: 10px;
+}
+/* ----/footer */
