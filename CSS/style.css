@@ -125,8 +125,11 @@ nav li a:hover {
 
 .content-container h2, .content-container h3 {
   font-size: 22px;
-  padding-bottom: 25px;
   font-weight: normal;
+}
+
+.main-title, .widget-title {
+  padding-bottom: 25px;
 }
 
 .main-content p, .widget-content {
@@ -138,6 +141,21 @@ nav li a:hover {
 .feeds {
   width: 20%;
   padding: 5px;
+}
+
+.feeds-title-container {
+  position: relative;
+}
+
+.feeds-title-container i {
+  color: orange;
+  position: absolute;
+  top: 0;
+}
+
+.feeds-title {
+  display: inline-block;
+  padding: 8px 0 0 35px;
 }
 /* ----/section feeds */
 
