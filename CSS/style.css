@@ -11,7 +11,7 @@ html {
 
 body {
   /* background: url("./img/bkg.png"); */
-  background: lightgrey;
+  background: lightblue;
 }
 
 .wrapper {
@@ -55,3 +55,44 @@ header {
   font-size: 25px;
   text-transform: uppercase;
 }
+/* ----/header */
+
+/* ----nav */
+nav {
+  background: grey;
+  text-align: center;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  /* per centrarlo facilmente */
+}
+
+nav ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav li {
+  float: left;
+  text-transform: uppercase;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  /* ?messo qui invece che in <li> pensando che avrebbe esteso la zona link, ma non funziona? */
+  line-height: 50px;
+  padding: calc((50px - 14px)/2 - 1px) 10px;
+  /* ?vorrei che la zona cliccabile si estendesse su tutto a; così funziona ma con il porkaround di - 1px? */
+}
+
+nav li a:hover {
+  background: lightgrey;
+}
+
+/* ----/nav */
