@@ -10,10 +10,7 @@ html {
 }
 
 body {
-  background-image: url("./img/bkg.png");
-  background-size: cover;
-  background-position: center;
-  background-color: lightblue; /* provvisorio per problema background */
+  background: url("/img/bkg.png") center;
 }
 
 .wrapper {
@@ -30,10 +27,8 @@ header {
 }
 
 .header-background {
-  background-image: url("./img/header-bkg.png");
+  background: url("/img/header-bkg.png") center;
   background-size: cover;
-  background-position: center;
-  background-color: orange; /* provvisorio per problema background */
   height: 100%;
   position: relative;
 }
