@@ -212,4 +212,8 @@ footer hr {
   width: 99%;
   margin: 0 auto;
 }
+
+footer .social {
+  display: inline-block;
+}
 /* ----/footer */
