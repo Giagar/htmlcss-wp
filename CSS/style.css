@@ -25,6 +25,7 @@ header {
   background: white;
   height: 400px;
   padding: 10px;
+  margin-top: 15px;
 }
 
 .header-background {
@@ -97,7 +98,7 @@ nav li a:hover {
 }
 /* ----/nav */
 
-/* ----content */
+/* ----content: common rules */
 .content-container {
   padding-top: 10px;
 }
@@ -112,15 +113,31 @@ nav li a:hover {
   clear: both;
 }
 
-.feeds, .main-content, .widgets-container {
+.feeds, .main-content, .widget {
   background: white;
   border-radius: 4px;
 }
-/* ----/content */
+
+.main-content, .widget {
+  padding: 22px;
+  font-size: 14px;
+}
+
+.content-container h2, .content-container h3 {
+  font-size: 22px;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+.main-content p, .widget-content {
+  line-height: 22px;
+}
+/* ----/content: common rules */
 
 /* ----section feeds */
 .feeds {
   width: 20%;
+  padding: 5px;
 }
 /* ----/section feeds */
 
@@ -129,11 +146,20 @@ main {
   width: 60%;
   padding: 0 40px;
 }
+
+.main-title {
+  text-transform: uppercase;
+  text-shadow: 1.7px 1.7px lightgrey;
+}
 /* ----/main */
 
 /* ----widgets-container */
 .widgets-container {
   width: 20%;
+}
+
+.widget {
+  margin-bottom: 30px;
 }
 /* ----/widgets-container */
 
@@ -141,6 +167,5 @@ main {
 footer {
   height: 100px;
   background: orange;
-  margin-top: 10px;
 }
 /* ----/footer */
