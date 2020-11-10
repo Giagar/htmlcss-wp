@@ -140,11 +140,12 @@ nav li a:hover {
 /* ----section feeds */
 .feeds {
   width: 20%;
-  padding: 5px;
+  padding: 8px;
 }
 
 .feeds-title-container {
   position: relative;
+  padding-bottom: 5px;
 }
 
 .feeds-title-container i {
@@ -156,6 +157,19 @@ nav li a:hover {
 .feeds-title {
   display: inline-block;
   padding: 8px 0 0 35px;
+}
+
+.feeds ul {
+  list-style: none;
+}
+
+.feeds li {
+  padding: 5px 0;
+}
+
+.feeds a {
+  text-decoration: none;
+  color: green;
 }
 /* ----/section feeds */
 
@@ -185,5 +199,6 @@ main {
 footer {
   height: 100px;
   background: orange;
+  border-radius: 4px;
 }
 /* ----/footer */
