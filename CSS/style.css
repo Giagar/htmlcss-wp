@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: url("/img/bkg.png") center;
+  background: url("../img/bkg.png") center;
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ header {
 }
 
 .header-background {
-  background: url("/img/header-bkg.png") center;
+  background: url("../img/header-bkg.png") center;
   background-size: cover;
   height: 100%;
   position: relative;
